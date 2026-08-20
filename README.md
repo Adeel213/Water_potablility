@@ -88,7 +88,7 @@ streamlit run app.py
 The application will open in your browser.
 
 ## Find the App here
-
+https://check-water-potablility.streamlit.app/
 ## ⚠️ Disclaimer
 
 This application is developed for **educational and demonstration purposes**. The prediction should not be considered a substitute for professional or certified water-quality testing.
