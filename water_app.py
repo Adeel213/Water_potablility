@@ -42,9 +42,10 @@ if st.button('Predict'):
                                'Conductivity':[Conductivity],
                                'Organic_carbon':[Organic_carbon],
                                'Trihalomethanes':[Trihalomethanes],
-                               'Turbidity': [Turbidity],})
+                               'Turbidity': [Turbidity]})
     pred = model.predict(input_data)[0]
     if pred == 1:
         st.write("The water is potable.")
     else:
         st.error("The water is not potable.")
+
